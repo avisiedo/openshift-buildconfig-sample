@@ -43,6 +43,12 @@
   oc start-build openshift-buildconfig-sample 
   ```
 
+- Deploy the image by:
+
+  ```sh
+  oc new-app --image-source openshift-buildconfig-sample
+  ```
+
 ## References
 
 - https://docs.openshift.com/container-platform/4.10/cicd/builds/creating-build-inputs.html#builds-source-secret-ssh-key-auth_creating-build-inputs
