@@ -1,5 +1,7 @@
 #!/bin/bash
 
+MSG="Hello World 2"
+
 function _sighandler {
 	echo "Exiting by $1"
 	exit 0
@@ -8,5 +10,5 @@ function _sighandler {
 trap "_sighandler SIGTERM" SIGTERM
 trap "_sighandler SIGINT" SIGINT
 
-while true; do echo "Hello World"; sleep 2; done
+while true; do echo "$MSG"; sleep 2; done
 
