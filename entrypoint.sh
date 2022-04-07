@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MSG="Hello World 2"
+MSG="Hello World 3"
 
 function _sighandler {
 	echo "Exiting by $1"
