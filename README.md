@@ -52,4 +52,5 @@
 ## References
 
 - https://docs.openshift.com/container-platform/4.10/cicd/builds/creating-build-inputs.html#builds-source-secret-ssh-key-auth_creating-build-inputs
+- https://docs.openshift.com/container-platform/4.10/cicd/builds/triggering-builds-build-hooks.html#builds-using-github-webhooks_triggering-builds-build-hooks
 
